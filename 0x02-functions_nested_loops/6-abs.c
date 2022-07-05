@@ -2,8 +2,6 @@
 
 /**
  * _abs - a function that compute the absolute value of integer.
- *
- * @c: The number to be computed.
  */
 int _abs(int);
 {
