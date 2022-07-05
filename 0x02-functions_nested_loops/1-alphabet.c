@@ -1,18 +1,17 @@
-#include <studio.h>
-#include "_putchar.h"
+#include "main.h"
 
 /**
- * main - Function that prints the alphabet, in lowercase
- *
- * Return: Always 0 (Success)
+ * main - Print lower case of an alphabet
+ * Description: Print a code that print lower case alphabet
+ * Return: always 0 (success)
  */
 int main(void)
 {
-	char c;
+	int j;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (j = 'a'; j <= 'z'; j++)
 	{
-		_putchar(c);
+		_putchar(j);
 	}
 
 	_putchar('\n');
