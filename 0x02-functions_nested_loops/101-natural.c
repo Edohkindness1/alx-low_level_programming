@@ -1,23 +1,19 @@
 #include "stdio.h"
-
 /**
  * main - computes and prints the sum of multiples of 3 belo2 1024
  * Return: 0 when successful
  */
 int main(void)
 {
-	int i, z = 0;
+	int a = 0;
+	int b;
 
-	while (i < 1024)
+	while (a < 1024)
 	{
-		if ((i % 3 == 0) || (i % 5 == 0))
-		{
-			z += i;
-		}
-		i++;
+		if ((a % 3 == 0) || (a % 5 == 0))
+			b += a;
+		a++;
 	}
-
-	printf("%d\n", z);
+	printf("%d\n", b);
 	return (0);
 }
-			
