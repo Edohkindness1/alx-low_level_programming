@@ -4,8 +4,6 @@
  * _abs - a function that compute the absolute value of integer.
  *
  * @c: The number to be computed.
- *
- * Return: Absolute value of number or zero
  */
 int _abs(int);
 {
