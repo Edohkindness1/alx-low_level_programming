@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * -abs - a function that compute the value of integer
+ * 6-abs - a function that compute the value of integer
  */
 int _abs(int);
 {
