@@ -1,5 +1,5 @@
-#include <main.h>
-#include "main.h"
+#include <studio.h>
+#include "_putchar.h"
 
 /**
  * main - Function that prints the alphabet, in lowercase
