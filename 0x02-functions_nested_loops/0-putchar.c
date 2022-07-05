@@ -2,20 +2,17 @@
 #include "_putchar.h"
 
 /**
- * main - Program that prints _putchar
- *
- * Return: Always 0
+ * main - Check the description
+ * Description: It prints the word _putchar, followed by a new line.
+ * Return: A lways 0
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	cher word[7] = "_putchar";
+	int i;
+
+	for (i = 0; i < 9; i++)
+		_putchar(word[i]);
 	_putchar('\n');
 
 	return (0);
