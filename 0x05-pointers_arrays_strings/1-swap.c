@@ -5,7 +5,7 @@
  * @a: integer 1
  * @b: integer 2
  */
-void swpa_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int c = *a;
 
