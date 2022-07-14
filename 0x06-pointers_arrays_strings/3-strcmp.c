@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strcmp - a function that compares two strings
+ *_strcmp - a function that compares two strings
  *
- * @s1: The function strings
+ * @s1: The function of strings
  * @s2: The function of strcmp
  *
  * Return: Always 0.
@@ -22,6 +22,6 @@ int _strcmp(char *s1, char *s2)
 	}
 	else
 	{
-		return (*s1 - 8s2);
+		return (*s1 - *s2);
 	}
 }
