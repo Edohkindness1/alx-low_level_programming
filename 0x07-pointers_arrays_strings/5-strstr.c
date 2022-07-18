@@ -4,9 +4,9 @@
  * _strstr - locates a substring
  *
  * @haystack: the longer string to search
- * @needle: the first occurence of the substring
+ * @needle: the first occurrence of the substring
  *
- * Return: a pointer beg of a substring or @NULL if it is not found.
+ * Return: a pointer beg of substring or @Null if it not foound.
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -26,7 +26,8 @@ char *_strstr(char *haystack, char *needle)
 			i++;
 			j = 0;
 		}
-		return (haystack + i);
+		else
+			return (haystack + i);
 	}
 	return (0);
 }
